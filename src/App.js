@@ -1,4 +1,3 @@
-import { Outlet } from "react-router-dom";
 import "./App.css";
 import { CategoryList } from "./components/categoryList/CategoryList";
 
