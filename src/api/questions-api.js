@@ -1,3 +1,4 @@
+// Code to fetch questions from the server using the axios library
 import axios from "axios";
 
 export const getQuestions = async (id) => {

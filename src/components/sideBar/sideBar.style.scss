@@ -1,0 +1,36 @@
+.sidebar {
+    width: 300px;
+    background-color: #f8f9fa; // Bootstrap's light color
+    border: 1px solid #ced4da; // Bootstrap's secondary color
+    padding: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+    flex-shrink: 0;
+    overflow: auto;
+    height: 100vh;
+
+    &.open {
+        transform: translateX(0);
+    }
+
+    .close-button {
+        background-color: #dc3545; // Bootstrap's danger color
+        color: #fff; // Bootstrap's white color
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #c82333; // Bootstrap's danger hover color
+        }
+    }
+
+    h2, h3 {
+        color: #212529; // Bootstrap's dark color
+    }
+
+    p {
+        color: #6c757d; // Bootstrap's secondary color
+    }
+}

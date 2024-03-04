@@ -1,0 +1,22 @@
+.questionList {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+
+    h2 {
+        color: #212529; // Bootstrap's dark color
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #6c757d; // Bootstrap's secondary color
+    }
+
+    .questionGrid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+}

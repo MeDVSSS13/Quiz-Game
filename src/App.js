@@ -1,15 +1,11 @@
 import "./App.css";
-import { CategoryList } from "./components/categoryList/CategoryList";
+// import { CategoryList } from "./components/categoryList/CategoryList";
+import { HomePage } from "./components/homePage/HomePage";
 
 function App() {
 	return (
 		<div className="App">
-			<div className="App-header">
-				<button>Start</button>
-				<button>Pause</button>
-				<button>Stop</button>
-			</div>
-			<CategoryList />
+			<HomePage />
 		</div>
 	);
 }

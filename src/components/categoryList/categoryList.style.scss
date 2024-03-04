@@ -1,0 +1,32 @@
+// CategoryList.module.scss
+
+.category-list {
+    background-color: #f8f9fa; // Bootstrap's light color
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+        margin: 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #007bff; // Bootstrap's primary color
+            }
+        }
+    }
+}
